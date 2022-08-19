@@ -1,0 +1,86 @@
+Merhaba Muhammet Kağan Algül,
+
+!!! LÜTFEN BU E-MAİLİ SONUNA KADAR DİKKATLE OKUYUNUZ, HİZMETİNİZİ KULLANABİLMENİZ İÇİN GEREKLİ BİLGİLERİ İÇERMEKTEDİR !!!
+
+Web hosting hizmetinizde bizi seçtiğiniz için teşekkür ederiz. Bu e-mail, hesabınızı kullanmanız için gerekli bütün bilgileri içermektedir.
+
+Eğer siparişiniz sırasında yeni bir alan adı da aldıysanız, web sitenize 24-72 saat arası erişemeyebilirsiniz. Bu süreç alan adının hazırlanma sürecidir ve bizimle bir ilgisi yoktur, bu süre içerisinde yönetiminizi yapabilmeniz için geçici bilgiler bu e-mailde yer almaktadır.
+
+Hizmet Özeti
+
+Hosting Paketi: WinKucuk-3
+Alan Adı: meliskagan.xyz
+İlk Ödeme Tutarı: 93.90 TL
+Sonraki Ödemelerin Tutarı: 93.90 TL
+Ödeme Sıklığı: Yıllık
+Sonraki Ödemeniz: 23.11.2022
+
+Giriş Bilgileri
+
+Kullanıcı Adı: meliskag
+Şifre: ****
+
+Bu giriş bilgileri, hem Plesk panel hem de FTP için geçerlidir.
+
+Plesk Geçici URL: http://89.252.181.210:8880/
+Nameserver'larınız aktif olduğunda: http://www.meliskagan.xyz:8880/
+
+Sunucu ve Nameserver Bilgileri
+
+Sunucu Adı: ni-trio-win
+
+Alan adınızın nameserver'larının aşağıdaki gibi olması gerekmektedir:
+
+Nameserver 1: ns27.guzelhosting.com
+Nameserver 2: ns28.guzelhosting.com
+
+Web Sitenizi FTP ile Yüklemek
+
+Geçici FTP Sunucu Adresi: 89.252.181.210
+
+Nameserver'lar aktif olduğunda:
+
+FTP Sunucu Adresi: ftp.meliskagan.xyz
+
+Önemli: Dosyalarınızı, FTP'deki httpdocs klasörüne yüklemelisiniz. Diğer klasörlere yükleme yapmamanız ve silmemeniz, sistemin sorunsuz çalışması için zorunludur.
+
+E-mail Ayarları
+
+Kuracağınız e-mail hesapları için, e-mail programlarında aşağıdaki bilgileri kullanabilirsiniz:
+
+POP3 Host Adresi: mail.meliskagan.xyz
+SMTP Host Adresi: mail.meliskagan.xyz
+SMTP Portu: 587
+Kullanıcı Adı: E-mail kontrol etmek istediğiniz adres
+Şifre: Kontrol panelinden oluşturduğunuz şifre
+
+Webmail URL: http://webmail.meliskagan.xyz (nameserverlar aktif olduktan sonra kullanılabilir).
+
+Hizmetinizde profesyonel Spam Koruması SpamExperts ücretsiz olarak sunulmaktadır. Plesk panelinizin Professional Spam Filter bölümünden sitenizin "Login" butonuna tıkladığınızda hizmet aktifleşecektir ve sonrasında da yine aynı bölümden SPAM karantinası, whitelist/blacklist vb. yönetim sağlamanız mümkün olacaktır.
+
+Şifre Kullanımı, Şifre Girişleri ve Engelleme Hakkında Bilgilendirme
+
+Hesaplarınızın güvenliği için, şifrenizi değiştirdiğinizde veya e-mail hesapları oluşturduğunuzda, asla basit şifreler kullanmayınız. Şifrelerin güvenli olması için büyük/küçük harf ve rakamlardan oluşması ve asla tahmin edilemez şifreler olması gereklidir. Unutmayınız ki, güvenli bir şifre belirlemediğiniz taktirde, otomatik olarak şifre denemesi yaparak sitenize zarar vermeye çalışan botlar şifrenizi bulacak ve bu da hizmetinizin kötüye kullanılmasına yol açacaktır.
+
+Hesaplarınızın güvenliğinin sağlanabilmesi için, sunucularımızda birtakım önlemler mevcuttur. Arka arkaya çok sayıda hatalı şifre girişi yaptığınızda, sonrasında doğru şifre girilse bile sistem şifrenizi kabul etmeyecek veya tamamen sisteme erişiminiz engellenecektir. Bunun gibi sorunlar olmasını engellemek için, şifrenizden emin olmadığınız durumlarda, müşteri panelinizin "Ürün ve Hizmetleriniz" bölümünden hizmetinizin yönetimine girerek şifre değişikliği yapınız, arka arkaya hatalı şifre denemeleri yapmayınız.
+
+Yedekleme ve Veri Güvenliği ile İlgili Önemli Bilgi
+
+Verileriniz haftalık olarak farklı sunuculara yedeklense de, verilerinizin güvenliğini garanti etmemiz mümkün değildir. Olası bir sorunda sıkıntı yaşamamak için, lütfen belirli aralıklarla kendi yedeklerinizi alınız. Yedekleme hizmetlerinde veya veri güvenliği konusunda sorumluluk kabul etmemekteyiz.
+
+Destek
+
+Hosting hizmetiniz ile ilgili yaşayacağınız her türlü sorunda, müşteri panelinizin "Destek Merkezi" bölümünden müşteri girişi yaparak bir destek bildirimi göndermenizi rica ederiz. Telefon, e-mail, iletişim formu vb.. yöntemlerle güvenlik sebebiyle hesap üzerinde bir işlem yapılması mümkün olmamaktadır.
+
+Destek bildirimleri en fazla 24 saat içinde cevaplanacaktır, bu süre genellikle birkaç saati geçmez ve destek ekibimizin yoğunluk durumuna bağlıdır.
+
+Otomatik Yenileme Bilgisi
+
+Hosting hizmetinizde varsayılan olarak otomatik yenileme aktiftir ve varsa kayıtlı kredi kartı/Paypal hesabınız/hesap krediniz kullanılarak otomatik yenileme yapılacaktır. Bunu istemiyorsanız müşteri panelinizden otomatik yenilemeyi kapatmayı unutmayınız.
+
+
+Web hosting hizmetleriniz için bizi seçtiğiniz için teşekkür ederiz.
+
+İyi Çalışmalar,
+Güzel Hosting Internet Hizmetleri
+www.guzel.net.tr

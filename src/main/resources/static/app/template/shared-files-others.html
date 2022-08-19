@@ -1,0 +1,37 @@
+<div class="table-responsive container" style="width: 900px; margin-top: 80px;">
+    <h2 align="center">SHARED FILES TO OTHERS</h2>
+    <table class="table file-table no-wrap table-hover v-middle mb-0 font-14">
+        <thead>
+            <th>
+                <td style="font-weight: bold;"><p>File Name</p></td>
+                <td style="font-weight: bold;"><p>Owner</p></td>
+                <td style="font-weight: bold;"><p>Share Time</p></td>
+                <td style="font-weight: bold;"><p>File Size</p></td>
+                <td style="font-weight: bold;"><p>Number Of Users</p></td>
+            </th>
+        </thead>
+        <tbody>
+            <!-- row -->
+            <tr ng-repeat="file in files | orderBy: '-file.createDate' | limitTo : 10 : 10 * (paging.currentPage - 1)" style="background-color:azure;">
+                    <!-- file-icon -->
+                    <td><i class="fa-solid fa-file"></i></td>
+                    <td>
+                        <h5 class="text-dark" style="font-weight: bold;">{{file.name}}</h5>
+                    </td>
+                    <!-- Message -->
+                    <td>
+                        <span class="mb-0 text-muted">{{file.owner.email}}</span>
+                    </td>
+                    <!-- Time -->
+                    <td class="text-muted">{{file.shareDate | timeago}}</td>
+                    <td class="text-muted"><p>{{file.size | Filesize}}</p></td>
+                    <td class="text-muted"><p>{{file.sharedCount}}</p></td>
+                    <td><button class="deleteButton" ng-click="showModal(file)"><i class="fa-solid fa-trash float-right"></i></button></td>
+                    <td><a href="file/download/{{file.name}}" target="_self">Download</a></td>
+                    <!-- Time -->
+
+                <!-- label -->
+            </tr>
+    </table>
+    <ul uib-pagination total-items="files.length" ng-model="paging.currentPage" items-per-page="paging.pageSize" style="margin-top:15px;" ng-if="files.length != 0"></ul>
+</div>

@@ -1,0 +1,5 @@
+timeago angularjs -> app.module app. ... olarak eklenir. filter olarak kullanılır.
+
+parola hash -> script security crypto maven dependency'e ekle.
+
+custom directive -> angular js custom directives

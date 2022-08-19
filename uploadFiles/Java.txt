@@ -1,0 +1,38 @@
+Java
+
+Polymorphism için ana class'a virtual, derived class'a override yazmak gerekir.
+c# primitive - java simple
+
+interface - final ? 
+
+Set: Duplicate verileri tutmaz. Veri depolamak için kullanılır.(Get methodu yok)
+-HashSet: Elementler sıralı değil.(Torba mantığı)(Duplicate tutmaz)
+-TreeSet: Girilen verileri değerine göre sıralı olarak tutar.
+-LinkedHashSet: Elementler girilen sıraya göre tutulur. Random Location.
+
+Map: Değerleri Key, Value ikilisi olarak tutar. Duplicate veri tutmaz.
+
+List: LinkedList, ArrayList
+-LinkedList: Birden çok veriyi bir arada tutup onlarla işlem yapmak için kullanılması uygundur.(sayilar.get(0))
+-ArrayList: Birden çok veriyi bir arada tutup sonrasında içinden istediklerimize ulaşmak istiyorsak kullanılması uygundur.(sayilar[0])
+
+Array(C#'ın aynısı): Belirli sayıda birden çok veriyi tutup sonrasında içinden istediğimiz veriyi kullanmak için uygundur. ArrayList yerine
+Array kullanılmasının sebebi, ArrayList başlangıç olarak içinde veri yokken bile ram de bir yer kaplamaktadır(ör: 50 elemanlı  bir array) ancak
+Array'in eleman sayısını başta belirlediğimiz için ram'de tutacağı yeri biz belirleriz ve gerektiği kadar veri depolarız.
+
+Stack : First in last out.
+
+Queue : First in first out.
+
+
+
+for (Person p : roster) {
+    if (p.getGender() == Person.Sex.MALE) {
+        System.out.println(p.getName());
+    }
+}
+
+list.forEach(x -> sout(x.name)); (e -> e.getGender() == Person.Sex.MALE.)
+
+
+
